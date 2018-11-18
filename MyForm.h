@@ -260,9 +260,9 @@ namespace Graph {
 			// 
 			this->richTextBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox1->Location = System::Drawing::Point(1189, 301);
+			this->richTextBox1->Location = System::Drawing::Point(1143, 301);
 			this->richTextBox1->Name = L"richTextBox1";
-			this->richTextBox1->Size = System::Drawing::Size(200, 268);
+			this->richTextBox1->Size = System::Drawing::Size(246, 268);
 			this->richTextBox1->TabIndex = 12;
 			this->richTextBox1->Text = L"";
 			// 
