@@ -131,13 +131,13 @@ namespace Graph {
 			this->zedGraphControl1->ScrollMinX = 0;
 			this->zedGraphControl1->ScrollMinY = 0;
 			this->zedGraphControl1->ScrollMinY2 = 0;
-			this->zedGraphControl1->Size = System::Drawing::Size(768, 519);
+			this->zedGraphControl1->Size = System::Drawing::Size(600, 600);
 			this->zedGraphControl1->TabIndex = 0;
 			this->zedGraphControl1->Load += gcnew System::EventHandler(this, &MyForm::zedGraphControl1_Load);
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(1008, 384);
+			this->button1->Location = System::Drawing::Point(851, 401);
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(110, 40);
 			this->button1->TabIndex = 1;
@@ -148,7 +148,7 @@ namespace Graph {
 			// label1
 			// 
 			this->label1->AutoSize = true;
-			this->label1->Location = System::Drawing::Point(842, 334);
+			this->label1->Location = System::Drawing::Point(685, 351);
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(14, 13);
 			this->label1->TabIndex = 3;
@@ -157,7 +157,7 @@ namespace Graph {
 			// 
 			// textBox1
 			// 
-			this->textBox1->Location = System::Drawing::Point(896, 334);
+			this->textBox1->Location = System::Drawing::Point(739, 351);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(59, 20);
 			this->textBox1->TabIndex = 4;
@@ -166,7 +166,7 @@ namespace Graph {
 			// label2
 			// 
 			this->label2->AutoSize = true;
-			this->label2->Location = System::Drawing::Point(1005, 334);
+			this->label2->Location = System::Drawing::Point(848, 351);
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(26, 13);
 			this->label2->TabIndex = 5;
@@ -174,7 +174,7 @@ namespace Graph {
 			// 
 			// textBox2
 			// 
-			this->textBox2->Location = System::Drawing::Point(1059, 331);
+			this->textBox2->Location = System::Drawing::Point(902, 348);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->Size = System::Drawing::Size(59, 20);
 			this->textBox2->TabIndex = 6;
@@ -185,7 +185,7 @@ namespace Graph {
 			this->label3->AutoSize = true;
 			this->label3->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->label3->Location = System::Drawing::Point(841, 529);
+			this->label3->Location = System::Drawing::Point(684, 546);
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(38, 20);
 			this->label3->TabIndex = 7;
@@ -193,7 +193,7 @@ namespace Graph {
 			// 
 			// textBox3
 			// 
-			this->textBox3->Location = System::Drawing::Point(894, 529);
+			this->textBox3->Location = System::Drawing::Point(737, 546);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->Size = System::Drawing::Size(61, 20);
 			this->textBox3->TabIndex = 8;
@@ -206,7 +206,7 @@ namespace Graph {
 				this->Column1,
 					this->Column2, this->Column3, this->Column4, this->Column5
 			});
-			this->dataGridView1->Location = System::Drawing::Point(845, 12);
+			this->dataGridView1->Location = System::Drawing::Point(688, 29);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->Size = System::Drawing::Size(544, 271);
 			this->dataGridView1->TabIndex = 9;
@@ -238,7 +238,7 @@ namespace Graph {
 			// 
 			// button2
 			// 
-			this->button2->Location = System::Drawing::Point(845, 384);
+			this->button2->Location = System::Drawing::Point(688, 401);
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(110, 40);
 			this->button2->TabIndex = 10;
@@ -248,7 +248,7 @@ namespace Graph {
 			// 
 			// button3
 			// 
-			this->button3->Location = System::Drawing::Point(845, 453);
+			this->button3->Location = System::Drawing::Point(688, 470);
 			this->button3->Name = L"button3";
 			this->button3->Size = System::Drawing::Size(110, 40);
 			this->button3->TabIndex = 11;
@@ -260,7 +260,7 @@ namespace Graph {
 			// 
 			this->richTextBox1->Font = (gcnew System::Drawing::Font(L"Microsoft Sans Serif", 12, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
 				static_cast<System::Byte>(204)));
-			this->richTextBox1->Location = System::Drawing::Point(1143, 301);
+			this->richTextBox1->Location = System::Drawing::Point(986, 318);
 			this->richTextBox1->Name = L"richTextBox1";
 			this->richTextBox1->Size = System::Drawing::Size(246, 268);
 			this->richTextBox1->TabIndex = 12;
@@ -268,7 +268,7 @@ namespace Graph {
 			// 
 			// button4
 			// 
-			this->button4->Location = System::Drawing::Point(1008, 453);
+			this->button4->Location = System::Drawing::Point(851, 470);
 			this->button4->Name = L"button4";
 			this->button4->Size = System::Drawing::Size(110, 40);
 			this->button4->TabIndex = 13;
@@ -280,7 +280,7 @@ namespace Graph {
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(1401, 601);
+			this->ClientSize = System::Drawing::Size(1277, 646);
 			this->Controls->Add(this->button4);
 			this->Controls->Add(this->richTextBox1);
 			this->Controls->Add(this->button3);
@@ -454,6 +454,27 @@ namespace Graph {
 
 		fout.close();
 
+		double min_limit, max_limit;
+		min_limit = xmin;
+		max_limit = xmax;
+		for (int i = 0; i < fy.size(); i++)
+		{
+			if (min_limit > fy[i])
+				min_limit = fy[i];
+		}
+
+		for (int i = 0; i < fy.size(); i++)
+		{
+			if (max_limit < fy[i])
+				max_limit = fy[i];
+		}
+		min_limit -= 0.5;
+		max_limit += 0.5;
+
+		panel->XAxis->Scale->Min = min_limit;
+		panel->XAxis->Scale->Max = max_limit;
+		panel->YAxis->Scale->Min = min_limit;
+		panel->YAxis->Scale->Max = max_limit;
 
 		zedGraphControl1->AxisChange();
 		// Обновляем график
