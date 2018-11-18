@@ -1,5 +1,0 @@
-﻿  MyForm.cpp
-c:\users\yuri\desktop\git\tmp\cubic_spline\MyForm.h(309): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
-  .NETFramework,Version=v4.5.2.AssemblyAttributes.cpp
-  Graph.vcxproj -> C:\Users\Yuri\Desktop\git\tmp\cubic_spline\x64\Debug\Graph.exe
-  Graph.vcxproj -> C:\Users\Yuri\Desktop\git\tmp\cubic_spline\x64\Debug\Graph.pdb (Full PDB)
